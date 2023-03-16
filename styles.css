@@ -55,8 +55,8 @@ h2{
     font-family: var(--font-default);
     color: var(--text-secundary);
     font-size: 3rem;
-    
 }
+
 span {
     font-size: 5rem;
     color: var(--text-primary);
@@ -111,6 +111,15 @@ img {
     }
 }
 
+@keyframes texto{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
 /* flex box */
 section{
     display: flex;
@@ -140,7 +149,6 @@ div {
 
 body{
     background-image: linear-gradient(to right, #fff,#4c6c81);
-    
 }
 
 /*Teste*/
@@ -157,4 +165,27 @@ body{
     z-index: -1;
     animation: entrada2 5s;
     position: relative;
+}
+
+#footer-projetos{
+    background-image: linear-gradient(to right, #212121,#fff);
+}
+
+ul{
+    padding: 2rem;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 2rem;
+    animation: texto 2s;
+}
+
+.footer-projetos-links{
+    display: list-item;
+}
+
+.footer-projetos h2{
+    color: var(--text-primary);
 }
