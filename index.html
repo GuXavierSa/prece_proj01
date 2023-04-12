@@ -7,76 +7,87 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portifólio</title>
+    <link rel="stylesheet" rel="preload" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/js/loader.js"></script>
 </head>
 <body>
 
-    <nav>
-        <div id="hamburguer">
-            <div class="linha" id="linha1"></div>
-            <div class="linha" id="linha2"></div>
-            <div class="linha" id="linha3"></div>
+    <div class="loader">
+        <div class="spin">
+
         </div>
-        <ul>
-            <li><a href="#home">
-                <i class="fa-solid fa-house"></i>
-                Home
-            </a></li>
-            <li><a href="#secao-preceptores">
-                <i class="fa-solid fa-user"></i>
-                Preceptores
-            </a></li>
-            <li><a href="#footer-projetos">
-                <i class="fa-solid fa-comments"></i>
-                Sobre
-            </a></li>
-        </ul>
-    </nav>
+    </div>
 
-    <header id="home">
-        <h1>
-            <h1>Bem vindo ao controle de preceptoria do Boni e Xavier</h1>
-            <span>Onde os jovens tem seu futuro garantido. Gostaria de entender sobre?</span>
-        </h1>
-    </header>
-
-    <section id="secao-preceptores">
-        <img id="imgEfeito01"  src="assets/images/prece01.jpg" alt="Foto do preceptor Xavier">
-        <div class="columns-left">
-            <h2>Preceptor do Curso Técnico em Redes e profissional de TI desde os 15 anos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con</p>
-            <a href="#secao-preceptores" class="botao">Ver preceptorados</a>
-        </div>
-    </section>
-    
-    <section id="secao-preceptores">
-        <div class="columns-right">
-            <h2>Preceptor do Curso Técnico em T.I e profissional de TI desde os 20 anos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con</p>
-            <a href="#secao-preceptores" class="botao">Ver preceptorados</a>
-        </div>
-        <img id="imgEfeito02" src="assets/images/prece02.jpg" alt="Foto do preceptor Xavier">
-    </section>
-
-
-    <footer id="footer-projetos">
-        <div id="footer-projetos-div">
+    <main class="hiden">
+        <nav>
+            <div id="hamburguer">
+                <div class="linha" id="linha1"></div>
+                <div class="linha" id="linha2"></div>
+                <div class="linha" id="linha3"></div>
+            </div>
             <ul>
-                <li>
-                    <h2>Sobre</h2>
-                    <a href="#" class="footer-projetos-links">Preceptores</a>
-                    <a href="#" class="footer-projetos-links">Instituição</a>
-                    <a href="#" class="footer-projetos-links">Missão, vizão e valores</a>
-                    <a href="#" class="footer-projetos-links">Política de privacidade</a>
-                    <a href="#" class="footer-projetos-links">Nós em números</a>
-                </li>
-                
-                <li>
-                    <h2>Colabore</h2>
-                    <a href="#" class="footer-projetos-links">Doar</a>
-                </li>
+                <li><a href="#home">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a></li>
+                <li><a href="#secao-preceptores">
+                    <i class="fa-solid fa-user"></i>
+                    Preceptores
+                </a></li>
+                <li><a href="#footer-projetos">
+                    <i class="fa-solid fa-comments"></i>
+                    Sobre
+                </a></li>
             </ul>
-        </div>        
-    </footer>
+        </nav>
+    
+        <header id="home">
+            <h1>
+                <h1>Bem vindo ao controle de preceptoria do Boni e Xavier</h1>
+                <span>Onde os jovens tem seu futuro garantido. Gostaria de entender sobre?</span>
+            </h1>
+        </header>
+    
+        <section id="secao-preceptores">
+            <img id="imgEfeito01"  src="assets/images/prece01.jpg" alt="Foto do preceptor Xavier">
+            <div class="columns-left">
+                <h2>Preceptor do Curso Técnico em Redes e profissional de TI desde os 15 anos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con</p>
+                <a href="#secao-preceptores" class="botao">Ver preceptorados</a>
+            </div>
+        </section>
+        
+        <section id="secao-preceptores">
+            <div class="columns-right">
+                <h2>Preceptor do Curso Técnico em T.I e profissional de TI desde os 20 anos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con</p>
+                <a href="#secao-preceptores" class="botao">Ver preceptorados</a>
+            </div>
+            <img id="imgEfeito02" src="assets/images/prece02.jpg" alt="Foto do preceptor Xavier">
+        </section>
+    
+    
+        <footer id="footer-projetos">
+            <div id="footer-projetos-div">
+                <ul>
+                    <li>
+                        <h2>Sobre</h2>
+                        <a href="#" class="footer-projetos-links">Preceptores</a>
+                        <a href="#" class="footer-projetos-links">Instituição</a>
+                        <a href="#" class="footer-projetos-links">Missão, vizão e valores</a>
+                        <a href="#" class="footer-projetos-links">Política de privacidade</a>
+                        <a href="#" class="footer-projetos-links">Nós em números</a>
+                    </li>
+                    
+                    <li>
+                        <h2>Colabore</h2>
+                        <a href="#" class="footer-projetos-links">Doar</a>
+                    </li>
+                </ul>
+            </div>        
+        </footer>
+    </main>
 </body>
 <script src="./assets/js/menu.js"></script>
 </html>
